@@ -5,10 +5,10 @@ Colors:
 - rgb(241, 117, 0)
 - red
 - rgb(13, 110, 0)
-- rgb(109, 0, 251)
-- rgb(219, 255, 57)
-- rgb(116, 201, 241)
-- rgb(251, 64, 64)
+- rgb(109, 0, 251) purple
+- rgb(219, 255, 57) yellow
+- rgb(116, 201, 241) light blue
+- rgb(251, 64, 64) red
 
 Sizes: 
 - 100%
@@ -29,7 +29,7 @@ Images:
 #heading {
   background-color: green;
   height: 90px;
-  width: 55%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,8 +37,27 @@ Images:
   border-radius: 30px;
 
   text-decoration: underline;
-  color: purple;
+  color: rgb(109, 0, 251);
   font-size: 50px;
   background-image: linear-gradient(rgb(251, 64, 64), rgb(116, 201, 241));
   text-shadow: 2px 2px 5px yellow;
+}
+
+#jordans-1 {
+  border: solid 2px blue;
+  width: 36%;
+  height: 30%;
+  margin: 50px 0px 50px 265px;
+}
+
+#jordans-1-desc {
+  width: 35%;
+  padding: 15px;
+  margin: 0px 0px 0px 265px;
+  background: rgb(116, 201, 241);
+  color: white;
+  font-size: 1.5em;
+  font-family: monospace;
+  border: solid 2px rgb(241, 117, 0);
+  border-radius: 18px;
 }
